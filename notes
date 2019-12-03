@@ -1,0 +1,60 @@
+# This file has notes of different aspects of python to serve as a reminder for syntax 
+
+# Operators
+**  Exponent                              2**3 = 8
+%   Modulus/remainder                     22 % 8 = 6
+//  Integer division/floored quotient     22 // 8 = 2
+/   Division
+*   Multiplication
+-   Subtraction
++   Addition
+
+# Functions
+
+str()
+int()
+float()
+
+# Comparison Operators
+
+==    Equal To
+!=    Not equal to
+<     Less than
+<=    Less than or equal to
+>     Greater than
+>=    Greater than or equal to
+
+
+# Booleans and more
+
+and
+or
+not
+True
+False
+None      # Used when a value explicitly returnes to 'none'
+
+# Flow control
+
+if
+elif
+else
+
+# Loops
+
+while     # loop while something
+break     # Breaks the loop
+continue  # breaks the loop but will go  back to last flow control if possible or continue w/ program
+return    # The value that a function call evaluates to - contains value or expression that the function should return to (exit code or phrase or whatever)
+
+for loop  # Used to cycle through values like below
+
+for i in $list:
+  print $i
+  
+# Variables
+global $varname     # The global statement is intended to for a function to modify a global variable 
+
+# Error Handling
+try                 # The script will attempt the code, if it can't complete it, you will need to create an exception to the try
+except              # Used to handle errors - can put logs or exit the script once the exception is found/met
