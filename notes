@@ -58,3 +58,28 @@ global $varname     # The global statement is intended to for a function to modi
 # Error Handling
 try                 # The script will attempt the code, if it can't complete it, you will need to create an exception to the try
 except              # Used to handle errors - can put logs or exit the script once the exception is found/met
+
+
+# Augmented assignment statement equivalent assignment statement
+
+var += 1          var = var + 1
+var -= 1          var = var - 1
+var *= 1          var = var * 1
+var /= 1          var = var / 1
+var %= 1          var = var % 1
+
+# Lists - manipulating them
+
+string.append()
+string.insert()
+string.remove()
+string.sort()
+
+# Mutable vs Immutable Data types
+
+1. Lists are mutable and can be changed easily
+2. Strings are immutable and must be changed using slicing, you can't technically edit a string, you essentially need to recreate it as a whole
+
+
+# Tuples and strings
+
